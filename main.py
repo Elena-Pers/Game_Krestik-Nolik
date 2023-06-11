@@ -1,7 +1,7 @@
-
+#------Отрисовка игрового поля
 field = [['-']*3 for _ in range(3)]
 
-#------Отрисовка игрового поля
+
 def show(f):
     print('  0 1 2')
     for i in range(len(field)):
